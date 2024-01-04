@@ -51,9 +51,9 @@ h1 {
 .skill-bar {
     width: 100%;
     background: rgba(255, 255, 255, 0.6);
-    height: 40px;
+    height: 20px;
     z-index: -1;
-    border-radius: 80px;
+    border-radius: 70px;
     position: absolute;
 }
 
