@@ -40,7 +40,7 @@ h1 {
 
 .skill {
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .skill-title {
@@ -59,7 +59,7 @@ h1 {
 
 .skill-fill {
     background: #322925;
-    height: 10px;
+    height: 20px;
     border-radius: 100px;
     display: flex;
     justify-content: flex-end;
