@@ -51,15 +51,15 @@ h1 {
 .skill-bar {
     width: 100%;
     background: rgba(255, 255, 255, 0.6);
-    height: 15px;
+    height: 20px;
     z-index: -1;
-    border-radius: 20px;
+    border-radius: 80px;
     position: absolute;
 }
 
 .skill-fill {
     background: #322925;
-    height: 40px;
+    height: 20px;
     border-radius: 100px;
     display: flex;
     justify-content: flex-end;
