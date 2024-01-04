@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1em 10%;
+    background: transparent;
+    background-color: #322925;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+body {
+    background: #DBD6D1;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 45px;
+}
+
+.skills-area {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20%;
+}
+
+.skill {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.skill-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.skill-bar {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    height: 40px;
+    z-index: -1;
+    border-radius: 80px;
+    position: absolute;
+}
+
+.skill-fill {
+    background: #322925;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+    overflow: hidden;
+}
+
+.skill-percent {
+    font-size: 18px;
+}
+
+.html {
+    animation: HTML 2s;
+    width: 68%;
+}
+
+.css {
+    animation: CSS 2s;
+    width: 65%;
+}
+
+.c {
+    animation: C 2s;
+    width: 70%;
+}
+
+.cc {
+    animation: CC 2s;
+    width: 72%;
+}
+
+.phython {
+    animation: Phython 2s;
+    width: 70%;
+}
+
+.adobe {
+    animation: Adobe 2s;
+    width: 78%;
+}
+
+@keyframes HTML {
+    from {
+      width: 0;  
+    }
+    to {
+        width: 68%;
+    }
+}
+
+@keyframes CSS {
+    from {
+      width: 0;  
+    }
+    to {
+        width: 65%;
+    }
+}
+
+@keyframes C {
+    from {
+      width: 0;  
+    }
+    to {
+        width: 70%;
+    }
+}
+
+@keyframes CC {
+    from {
+      width: 0;  
+    }
+    to {
+        width: 72%;
+    }
+}
+
+@keyframes Phython {
+    from {
+      width: 0;  
+    }
+    to {
+        width: 70%;
+    }
+}
+
+@keyframes Adobe {
+    from {
+      width: 0;  
+    }
+    to {
+        width: 78%;
+    }
+}
+
+.logo {
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+footer {
+    background-color: #322925;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
